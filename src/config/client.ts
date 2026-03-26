@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Martin Hayward", rating: 5, text: "I had my garden completely done by Tom at Canna Verdi. I moved in to a new build house so I had a a dull garden just sloping grass & fencing. Tom completely changing my garden into a Mediterranean oasis & also a …  +3 ", date: "3 years ago" },
+    { name: "Chris Johnson", rating: 5, text: "Tom designed and built a large spectacular aviary for me. He is a talented young man who worked hard and achieved a great result. My canaries and finches love it !  ", date: "3 years ago" },
+    { name: "Carole Clements", rating: 5, text: "Tom listened to my ideas to completely make over my garden and made suggestions as to what would and wouldn’t work. He explained the differences between hard landscaping and what I wanted for a coastal garden as I was unclear. He took on …  ", date: "3 years ago" },
+    { name: "David Hilling", rating: 5, text: "Tom gave thoughtful, knowledgeable and helpful advice to remodel our small urban garden. He then produced design options one of which he refined to fully meet our requirements. We were pleased with his service and the final result.  ", date: "3 years ago" },
+    { name: "Anthony Bennett", rating: 5, text: "I used Tom's Canna Verdi firm to design patio, garden lighting and a water feature. Very pleased with his ideas as well as his prompt, courteous and professional service. Highly recommended.  ", date: "4 years ago" },
+    { name: "Ray Dicker", rating: 5, text: "Great Attention to details.  Pleasant  safe working all the time.  Excellent design plans, interesting helpful information about plants.  Many thanks for all their work.  Norma Dicker.  ", date: "Edited 3 years ago" },
+    { name: "John Williams", rating: 5, text: "We have been delighted throughout with the service we have received from Tom Brown of Canna Verdi and very much with the result which has transformed our garden  ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
